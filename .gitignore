@@ -1,0 +1,12 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore any further environment-specific files
+.env
+
+# Ignore database migrations and SQLite files
+*.sqlite3
+*/migrations/
